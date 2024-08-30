@@ -35,11 +35,7 @@ lnk {
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
   }
-
-:hover {
-    transform: translateY(-10px);
-}
-
+  
 los {
     color: #ffff;
     font-style: italic;
