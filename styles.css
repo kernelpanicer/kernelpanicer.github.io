@@ -1,0 +1,40 @@
+a {
+    color: rgb(255, 255, 255);
+    font-size: 53pt;
+    font-style: normal;
+    text-shadow: 1px 1px 2px black; 
+    text-transform: uppercase;
+    vertical-align: bottom;
+    text-align: left;
+} 
+
+body {
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-family: 'Helvetica Neue';
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp2894368.jpg&f=1&nofb=1&ipt=23f3017c44f2a4cffb3430bf7a4299bf0e6629677e005d62828ff90f24335424&ipo=images);
+    text-align: center;
+    font-size: 55pt;
+    text-shadow: 1px 1px 2px white; 
+}
+
+lnk {
+    font-weight: bold;
+    font-style: italic;
+    position:static;
+    bottom: 0;
+    text-align: center
+}
+
+.glow {
+    font-size: 65pt;
+    color: #000000;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+:hover {
+    transform: translateY(-10px);
+}
